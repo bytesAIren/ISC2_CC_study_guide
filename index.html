@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISC2 CC Study Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button id="homeBtn" class="ghost-btn" type="button">Home</button>
+      <div class="brand">
+        <span class="brand-mark">CC</span>
+        <div>
+          <p class="eyebrow" id="brandEyebrow">ISC2 Certified in Cybersecurity</p>
+          <h1 id="brandTitle">Study Hub</h1>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button id="languageSwitchBtn" class="ghost-btn language-switch" type="button" aria-label="Switch language">🇮🇹 Italiano</button>
+        <button id="fullQuizTopBtn" class="primary-btn small" type="button">Full Quiz</button>
+      </div>
+    </header>
+
+    <main id="app" class="main-view" aria-live="polite"></main>
+  </div>
+
+  <script src="data/i18n.js"></script>
+  <script src="data/domains.en.js"></script>
+  <script src="data/questions.en.js"></script>
+  <script src="data/domains.it.js"></script>
+  <script src="data/questions.it.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
